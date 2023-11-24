@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovoProjeto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <header class="cabecalho">
+      <h1 >Tudo sobre Futebol</H1>
+          <nav class="cabecalho-menu">
+          <a href="#sobre">Camisas</a>
+          <a href="#history">História</a>
+          <a href="#contact">Contato</a>
+      </nav>
+  </header>
+
+  <main id="sobre">
+    <section>
+      <div class="centerH1">
+          <h1 >VENDAS CAMISAS</h1>
+          <p>O futebol é um esporte coletivo praticado entre duas equipes, onde o objetivo é marcar gols ao chutar uma bola no gol adversário. </p>
+          <p>É o esporte mais popular do mundo, conhecido por sua simplicidade, competitividade e impacto cultural global.</p>
+      </div>
+
+      <h1 class="centerH1">Camisa Seleção Brasileira</h1>
+      <div class="conteudo-principal-img">
+          <img src="./camisaselecao.jpeg" alt="Camisa" width="320" height="320" />
+          <p class="preco"><b>R$449,99</b></p>
+          <button class="grow" type="submit">COMPRAR</button>
+      </div>
+
+      <br>
+
+      <h1 class="centerH1">Camisa Seleção Argentina</h1>
+      <div class="conteudo-principal-img">
+          <img src="./camisaargentina.webp" alt="Argentina" width="320" height="320" />
+          <p class="preco"><b>R$224,90</b></p>
+          <button class="grow" type="submit">COMPRAR</button>
+      </div>
+
+      
+
+      </section>
+      
+    </section>
+
+        <section  class="centerH1" id="contato">
+            <h1>Contato</h1>
+            <a href="#" class="abrirModal" id="abrirModal">Clique aqui para insirir seus dados de contato</a>
+            <dialog>
+                <h2>Mande sua mensagem</h2>
+                <form id="form">
+                    <label for="nome"><p>Nome:</p></label>
+                    <input type="text" name="nome" id="nome"><br>
+                    <label for="email"><p>Email:</p></label>
+                    <input type="text" name="email" id="email"><br>
+                    <button class="botao-modal" type="button" onclick="salvar()">ENVIAR</button>
+                </form>
+                <a href="#" class="fecharModal" id="fecharModal">Fechar modal</a>
+            </dialog>
+        </section>
+  </main>
+
+  <footer class="FinalDaPag">
+      <p><sup>&reg;</sup>2023 - Todos os direitos reservados</p>
+  </footer>
+    
+</body>
+    <script src="script.js"></script>
+</html>
